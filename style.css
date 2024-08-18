@@ -6,48 +6,13 @@ body{
     padding: 10px;
 }
 
-.nav{
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    align-content: center;
-}
-
-.Aimg{
-    width: 80px;
-}
-
-.Anav{
-    display: flex;
-}
+/* google + google image */
 
 nav{
     padding: 15px;
     display: flex;
     justify-content: end;
     margin-bottom: 20px;
-}
-
-.advance{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    align-items: center;
-}
-
-.advanceSearchInput{
-    flex-grow: 1;
-    padding: 5px;
-    border: 1px solid gray;
-    border-radius: 2px;
-    margin-right: 15vw;
-    height: 20px;
-}
-
-.Alabel{
-    width: 210px;
 }
 
 .navButton{
@@ -69,8 +34,7 @@ nav{
     margin-bottom: 20px;
     margin-top: 20px;
     display: block;
-    width: 400px;
-    
+    width: 400px; 
     height: 30px;
     border-radius: 50px;
     border: 2px solid gray;
@@ -89,19 +53,58 @@ nav{
     color: gray;
 }
 
-.AsearchButton{
+/* Advanced search */
+
+.Advanced_nav{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+#Advanced_img{
+    width: 80px;
+}
+
+.Advanced_nav_container{
+    display: flex;
+}
+
+#Advanced_Form{
+    margin-left: 15px;
+}
+
+.advance_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.advanced_label{
+    width: 210px;
+}
+
+.advanceSearchInput{
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-right: 15vw;
+    height: 20px;
+}
+
+.advanceSearchButtonContainer{
+    text-align: right;
+    margin-right: 15vw;
+}
+
+.advanceSearchButton{
     padding: 10px 20px 10px 20px;
     border-style: none;
     border-radius: 2px;
     color: white;
     background-color: #3d81ef;
-}
-
-.ASB{
-    text-align: right;
-    margin-right: 15vw;
-}
-
-.AForm{
-    margin-left: 15px;
 }
