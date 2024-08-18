@@ -19,13 +19,30 @@ nav{
     font-size: 14px;
 }
 
+.imageFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.imageBox{
+    position: relative;
+
+}
+
 .img{
     display: block;
     margin: auto;
 }
 
+.image{
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    color: #3d81ef;
+}
+
 .searchBox{
-    display: block;
+    display: flex;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -33,9 +50,23 @@ nav{
     width: 60vw;
     max-width: 575px;
     min-width: 400px;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 20px 5px 10px;
     border-radius: 50px;
     border: 2px solid gray;
+}
+
+.SearchFild{
+    flex-grow: 1;
+    border: none;
+    margin-left: 5px;
+}
+
+.SearchFild:focus{
+    outline: none;
+}
+
+#searchicon{
+    margin: 5px;
 }
 
 .buttons{
