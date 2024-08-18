@@ -1,0 +1,107 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 10px;
+}
+
+.nav{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.Aimg{
+    width: 80px;
+}
+
+.Anav{
+    display: flex;
+}
+
+nav{
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.advance{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.advanceSearchInput{
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-right: 15vw;
+    height: 20px;
+}
+
+.Alabel{
+    width: 210px;
+}
+
+.navButton{
+    color: gray;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.img{
+    display: block;
+    margin: auto;
+}
+
+.searchBox{
+    padding: 5px 20px 5px 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    width: 400px;
+    
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid gray;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.searchButton{
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 5px;
+    color: gray;
+}
+
+.AsearchButton{
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #3d81ef;
+}
+
+.ASB{
+    text-align: right;
+    margin-right: 15vw;
+}
+
+.AForm{
+    margin-left: 15px;
+}
